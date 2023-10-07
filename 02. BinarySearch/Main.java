@@ -1,4 +1,5 @@
 public class Main{
+    //HW: https://practice.geeksforgeeks.org/problems/binary-search-1587115620/1
     public static int binarySearch(int [] A, int key){
         int i = 0;
         int j = A.length-1;
@@ -18,6 +19,11 @@ public class Main{
         }
         return -1;
     }
+
+    //HW: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+
+    //HW: https://www.geeksforgeeks.org/c-program-multiply-two-matrices/
+    //HW: Submit -> https://practice.geeksforgeeks.org/problems/multiply-matrices/1
 
     public static void main(String [] args){
         int [] A = {1,2,3,4,5,6,7,8};
